@@ -1,0 +1,284 @@
+.packup-main-text{
+	font-size: 35px;
+	font-weight: 600;
+}
+.packup-main-text span{
+	color: #D80001;
+}
+.main-box-home-left{
+	padding: 40px 0px ;
+}
+.sub-txt-home-main{
+	text-align: justify !important;
+}
+.explore-btn{
+	background: #090325;
+	padding: 7px 40px !important;
+	border-radius: 8px !important;
+}
+/* products page  */
+.product-heading-dv{
+  padding: 40px 0px 10px 0px;
+}
+.product-img{
+  border-radius: 5px;
+}
+.text-about-product{
+  padding: 20px 0px;
+  font-size: 18px;
+	color: #1d3a7e;
+}
+.product-box{
+	margin: 20px 0px;
+}
+.packup-bg{
+	background: #3062ad1e;
+	border-radius: 10px;
+	padding: 25px;
+}
+.bg-black{
+	margin: 40px 0px;
+	border-radius: 10px;
+	padding: 30px;
+}
+.discust-text{
+	color: #fdd426!important;
+	padding: 30px 0px 30px 0px;
+}
+.main-txt-discuss{
+	padding-bottom: 40px;
+}
+.get-started-btn{
+	background: #2a5594;
+	padding: 9px 40px !important;
+	display: table;
+	margin: 0px auto 30px auto;
+	border-radius: 8px !important; 
+}
+.grey-bg{
+	background: #3062ad1e;
+	padding: 40px;
+	border-radius: 20px;
+	margin: 40px 0px;
+}
+.feature-main-txt{
+	padding-bottom: 20px;
+}
+.sub-txt-feature{
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+.feature-box-sml{
+	box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+	background: #ffff;
+	border-radius: 15px;
+	margin: auto;
+}
+.icon-feature{
+	width: 100px;
+	padding: 30px;
+	margin: auto;
+	display: table;
+}
+.img-dv-icon{
+	border-radius: 50%;
+	width: max-content !important;
+	margin: auto;
+	background: linear-gradient(159deg, #3f4da0 0%, #3e3a3a 100%);	
+}
+.main-box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.feature-inner-box{
+	width: 48%;
+	margin-bottom: 20px;
+}
+.about-feature{
+	text-align: center;
+	padding-top: 20px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.get-a-call{
+	background: #2a5594;
+	padding: 9px 40px !important;
+	border-radius: 8px !important; 
+}
+.veture-img{
+	width: 40%;
+	display: table;
+	margin: auto;
+}
+.veture-img-two{
+	width: 35%;
+	display: table;
+	margin: auto;
+}
+.ventures-dv{
+	padding: 20px 0px;
+}
+.ventures-text{
+	text-align: center;
+}
+.us{
+	margin: 25px 0px;
+}
+.packup-text{
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+.packup-text span{
+	color: #D80001;
+	font-size: unset;
+}
+.explore-btn i{
+	padding-right: 10px;
+}
+.button-dv-about{
+	display: flex;
+	justify-content: space-between;
+}
+.logo-dv a:hover{
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.service-img{
+	width: 100px;
+	display: table;
+	margin: auto;
+}
+.service-box{
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.25);
+}
+.services-main-div{
+	margin: 40px 0px;
+}
+.service-name{
+	font-size: 20px;
+	padding: 20px 0px 10px 0px;
+}
+.clints-box{
+	margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+	.main-nav .nav-item ul li{
+		display: none;
+	}
+	.ventures-text{
+		text-align: start;
+	}
+	.feature-inner-boxs{
+		margin-bottom: 25px;
+	}
+	header {
+    padding: 20px 0px 20px 0px !important;
+	}
+}
+@media (max-width:550px) {
+	.img-dv-ventures{
+		margin: 20px 0px;
+	}
+	.main-box-home-left {
+    padding: 0px 0px 20px 0px;
+	}
+	.icon-feature {
+    width: 60px;
+		padding: 15px;
+	}
+	.about-feature{
+		font-size: 14px;
+	}
+	.feature-box-sml {
+    padding: 15px;
+	}
+	.grey-bg {
+    padding: 30px;
+		margin: 40px 0px 30px 0px;
+	}
+	.clients-head-text{
+		font-size: 20px;
+	}
+	.feature-main-txt {
+    font-size: 21px;
+	}
+	.sub-txt-feature {
+    font-size: 14px;
+	}
+	.main-txt-discuss {
+    font-size: 23px;
+	}
+	.discust-text {
+    font-size: 18px;
+	}
+	.quatotion {
+		position: absolute;
+    top: -1px 1 !important;
+    font-size: 35px !important;
+	}
+	.slider .item .slide-box {
+		margin: 30px;
+    padding-left: 43px !important;
+    padding-right: 20px !important;
+    padding-top: 51px !important;
+		}
+	.testimonial-content {
+		line-height: 1.6;
+    font-size: 13px !important;
+	}
+	.slick-slide {
+    padding: 6px 0 !important;
+	}
+	.slider-main-dv-home{
+		margin-bottom: 20px;
+	}
+	.clints-box {
+    margin: 20px 0px 0px 0px;
+	}
+	.customer-review-dv{
+		padding-top: 20px;
+	}
+	footer h5 {
+    padding-bottom: 1% !important;
+	}
+	.bg-black {
+    margin: 0px 0px 40px 0px;
+	}
+	.button-dv-about {
+    display: block;
+	}
+	.explore-btn {
+		margin-bottom: 10px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
